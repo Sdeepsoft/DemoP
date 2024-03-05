@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>StudentsLearning</groupId>
-  <artifactId>StudentsLearning</artifactId>
+  <groupId>SandeepProject</groupId>
+  <artifactId>SandeepProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>StudentsLearning</name>
@@ -28,7 +28,7 @@
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
-      <version>4.4.3</version>
+      <version>5.4.1</version>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
@@ -110,14 +110,14 @@
               <goal>generate</goal>
             </goals>
             <configuration>
-              <projectName>ShivaniProject</projectName>
+              <projectName>SandeepProject</projectName>
               <!-- output directory for the generated report -->
               <outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
               <!-- optional, defaults to outputDirectory if not specified -->
-              <inputDirectory>${project.build.directory}/</inputDirectory>
+              <!--<inputDirectory>${project.build.directory}/</inputDirectory> -->
 
-              <!-- optional, defaults to outputDirectory if not specified -->
-              <classificationDirectory>${project.build.directory}/</classificationDirectory>
+              <!--optional, defaults to outputDirectory if not specified -->
+              <!--<classificationDirectory>${project.build.directory}/</classificationDirectory> -->
 
               <parallelTesting>true</parallelTesting>
               <checkBuildResult>false</checkBuildResult>

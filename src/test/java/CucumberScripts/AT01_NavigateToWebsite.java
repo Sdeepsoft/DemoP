@@ -15,16 +15,15 @@ public class AT01_NavigateToWebsite {
         OpenBrowser.NavToWebsite(ReadPropertiesFile.PropFile("HNWebsite"));
         //get title from the page and assert
         String ActualTitle=OpenBrowser.driver.getTitle();
-        System.out.println("title : " + ActualTitle);
-        String ExpectedTitle="Harvey Norman | Shop Online for Computers, Electrical, Furniture, Bedding, Bathrooms & Flooring | Harvey Norman Australia";
+        String ExpectedTitle="Baeldung";
         Assert.assertEquals(ExpectedTitle,ActualTitle);
     }
 
 
     @Test
-    public static void NavAccLink() throws IOException, InterruptedException {
-Thread.sleep(10000);
-        OpenBrowser.driver.findElement((By.xpath("//*[@id='header']/div[1]/div/ul/li[6]/a"))).click();
+    public static void NavStartHereLink() throws IOException, InterruptedException {
+        Thread.sleep(10000);
+        OpenBrowser.driver.findElement((By.xpath("//a[text()='Start Here']"))).click();
     }
 
 
