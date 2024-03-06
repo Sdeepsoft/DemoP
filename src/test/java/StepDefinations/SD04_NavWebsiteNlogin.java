@@ -12,7 +12,7 @@ public class SD04_NavWebsiteNlogin {
 
     @Given("Navigate to abc website")
     public void navigate_to_abc_website() throws IOException {
-        OpenBrowser.NavToWebsite(ReadPropertiesFile.PropFile("OmayoWebpage"));
+        OpenBrowser.navToWebsite(ReadPropertiesFile.PropFile("OmayoWebpage"));
     }
 
     @Then("Enter username as {string}")

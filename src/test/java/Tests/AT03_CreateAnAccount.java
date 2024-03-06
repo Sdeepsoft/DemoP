@@ -10,16 +10,16 @@ import java.io.IOException;
 public class AT03_CreateAnAccount {
     @Test
     public static void navToReg() throws IOException {
-        OpenBrowser.NavToWebsite(ReadPropertiesFile.PropFile("AccCreate"));
+        OpenBrowser.navToWebsite(ReadPropertiesFile.PropFile("AccCreate"));
 
     }
 
     @Test
-    public static void EnterFirstName() throws IOException {
+    public static void EnterFirstName() {
         OpenBrowser.driver.findElement(By.id("firstname")).sendKeys("test");
     }
     @Test
-    public static void EnterLasttName() throws IOException {
+    public static void EnterLasttName() {
         OpenBrowser.driver.findElement(By.id("lastname")).sendKeys("test");
     }
 

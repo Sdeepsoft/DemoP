@@ -11,7 +11,7 @@ public class AT04_NavWebSiteNLogin {
 
     @Test
     public static void navToAbcReg() throws IOException {
-        OpenBrowser.NavToWebsite(ReadPropertiesFile.PropFile("OmayoWebpage"));
+        OpenBrowser.navToWebsite(ReadPropertiesFile.PropFile("OmayoWebpage"));
 
     }
 

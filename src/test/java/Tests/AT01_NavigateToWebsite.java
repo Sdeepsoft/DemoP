@@ -12,7 +12,7 @@ public class AT01_NavigateToWebsite {
 
     @Test
     public static void Nav() throws IOException {
-        OpenBrowser.NavToWebsite(ReadPropertiesFile.PropFile("HNWebsite"));
+        OpenBrowser.navToWebsite(ReadPropertiesFile.PropFile("HNWebsite"));
         //get title from the page and assert
         String ActualTitle=OpenBrowser.driver.getTitle();
         String ExpectedTitle="Baeldung";

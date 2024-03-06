@@ -3,25 +3,16 @@ package BaseClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-
-import java.io.File;
-import java.io.IOException;
 
 public class OpenBrowser {
 	public static WebDriver driver;
 
-	public static void NavToWebsite(String url) throws IOException {
+	public static void navToWebsite(String url) {
 		//setting up chromedriver- clear cache to get the new version of chromedriver by webdrivermanager
 		WebDriverManager.chromedriver().clearDriverCache().setup();
-		//options
-		//ChromeOptions chromeOptions = new ChromeOptions();
-		//we create an object of WebDriver
 		driver = new ChromeDriver();
-		//At this point browser will be opened
-		//maximize browser
 		driver.manage().window().maximize();
-		//Navigate to HN website
+		//Navigate to the website
 		driver.get(url);
 
 	}
