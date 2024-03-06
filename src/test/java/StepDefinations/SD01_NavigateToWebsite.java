@@ -2,7 +2,7 @@ package StepDefinations;
 
 
 
-import CucumberScripts.AT01_NavigateToWebsite;
+import Tests.AT01_NavigateToWebsite;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 

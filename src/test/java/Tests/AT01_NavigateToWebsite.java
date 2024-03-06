@@ -1,4 +1,4 @@
-package CucumberScripts;
+package Tests;
 
 import BaseClass.OpenBrowser;
 import PropertiesFile.ReadPropertiesFile;

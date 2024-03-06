@@ -1,7 +1,7 @@
 package StepDefinations;
 
 
-import CucumberScripts.AT03_CreateAnAccount;
+import Tests.AT03_CreateAnAccount;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
