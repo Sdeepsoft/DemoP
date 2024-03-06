@@ -12,7 +12,7 @@ public class OpenBrowser {
 	public static WebDriver driver;
 
 	public static void NavToWebsite(String url) throws IOException {
-		//setting up chromedriver
+		//setting up chromedriver- clear cache to get the new version of chromedriver by webdrivermanager
 		WebDriverManager.chromedriver().clearDriverCache().setup();
 		//options
 		//ChromeOptions chromeOptions = new ChromeOptions();
