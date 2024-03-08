@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31e0d61f-bf6d-4323-9cdb-7474a6eaa147" name="Changes" comment="sixth commit">
-      <change afterPath="$PROJECT_DIR$/.idea/TestprojectForDemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseClass/OpenBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinations/SD04_NavWebsiteNlogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinations/SD04_NavWebsiteNlogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AT01_NavigateToWebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AT01_NavigateToWebsite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AT03_CreateAnAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AT03_CreateAnAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AT04_NavWebSiteNLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AT04_NavWebSiteNLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BaseClass/OpenBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BaseClass/OpenBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BaseClass/TimeOutExplicit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BaseClass/TimeOutExplicit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PropertiesFile/ReadPropertiesFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PropertiesFile/ReadPropertiesFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/Xls_Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/Xls_Reader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Config/Wait_ExplicitWait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Config/Wait_ExplicitWait.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberScripts/AT01_NavigateToWebsite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberScripts/AT03_CreateAnAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT08_Iframe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT08_Iframe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD03_CreateAnAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD03_CreateAnAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD04_NavWebsiteNlogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD04_NavWebsiteNlogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +30,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -44,6 +57,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectId" id="286Is2JNOC5fUxF3pxeFnCJkIzR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,11 +72,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/cucumber.json" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.16619518" />
     <property name="project.structure.side.proportion" value="0.3319185" />
-    <property name="settings.editor.selected.configurable" value="org.sonarlint.intellij.config.project.SonarLintProjectConfigurable" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Navigate to Baeldung website">
     <configuration name="Scenario: Navigate to Baeldung website" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -154,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Navigate to Baeldung website" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="JUnit.AT13_UserDir" />
         <item itemvalue="Cucumber Java.Scenario: Navigate to Harvey Norman website" />
         <item itemvalue="Cucumber Java.Scenario: Navigate to HN website" />
-        <item itemvalue="JUnit.AT13_UserDir" />
-        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Navigate to Baeldung website" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709686661636</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sixth commit">
+      <created>1709688718671</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709688718671</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
