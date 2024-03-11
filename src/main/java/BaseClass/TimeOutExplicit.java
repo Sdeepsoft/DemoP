@@ -1,7 +1,5 @@
 package BaseClass;
 
-import java.util.concurrent.TimeUnit;
-
 public class TimeOutExplicit {
 
     public static void TimeoutExpli(int timval){

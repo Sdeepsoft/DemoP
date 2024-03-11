@@ -11,7 +11,7 @@ import java.io.IOException;
 public class AT01_NavigateToWebsite extends OpenBrowser {
 
     @Test
-    public void Nav() throws IOException {
+    public static void Nav() throws IOException {
         OpenBrowser.navToWebsite(ReadPropertiesFile.PropFile("HNWebsite"));
         //get title from the page and assert
         String ActualTitle=OpenBrowser.driver.getTitle();
@@ -21,7 +21,7 @@ public class AT01_NavigateToWebsite extends OpenBrowser {
 
 
     @Test
-    public void NavStartHereLink() throws IOException, InterruptedException {
+    public static void clickStartHereLink() throws IOException, InterruptedException {
         Thread.sleep(10000);
         OpenBrowser.driver.findElement((By.xpath("//a[text()='Start Here']"))).click();
     }

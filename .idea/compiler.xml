@@ -9,6 +9,7 @@
         <module name="TestprojectForDemo" />
         <module name="DemoProject" />
         <module name="NizamProject" />
+        <module name="SandeepProject" />
         <module name="ShivaniProject" />
       </profile>
     </annotationProcessing>

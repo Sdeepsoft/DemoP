@@ -1,11 +1,8 @@
 package Config;
 
 
-import BaseClass.OpenBrowser;
 //import org.junit.Assert;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Wait_ExplicitWait {
  public static void waitUntilVisibility(WebElement content1){

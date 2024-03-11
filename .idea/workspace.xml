@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31e0d61f-bf6d-4323-9cdb-7474a6eaa147" name="Changes" comment="sixth commit">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BaseClass/OpenBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BaseClass/OpenBrowser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BaseClass/TimeOutExplicit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BaseClass/TimeOutExplicit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PropertiesFile/ReadPropertiesFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PropertiesFile/ReadPropertiesFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/Xls_Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/Xls_Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Config/Wait_ExplicitWait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Config/Wait_ExplicitWait.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberScripts/AT01_NavigateToWebsite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberScripts/AT03_CreateAnAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT08_Iframe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT08_Iframe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD03_CreateAnAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD03_CreateAnAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD04_NavWebsiteNlogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinations/SD04_NavWebsiteNlogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,35 +40,25 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="286Is2JNOC5fUxF3pxeFnCJkIzR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/cucumber.json" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.16619518" />
-    <property name="project.structure.side.proportion" value="0.3319185" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Navigate to Baeldung website">
     <configuration name="Scenario: Navigate to Baeldung website" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -179,6 +159,13 @@
         <item itemvalue="Cucumber Java.Scenario: Navigate to Baeldung website" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

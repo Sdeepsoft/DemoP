@@ -59,6 +59,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
         // returns the data from a cell
 
 
+        @SuppressWarnings("deprecation")
         public String getCellData(String sheetName,String colName,int rowNum){
             try{
                 if(rowNum <=0)
@@ -127,6 +128,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
         // returns the data from a cell
+        @SuppressWarnings("deprecation")
         public String getCellData(String sheetName,int colNum,int rowNum){
             try{
                 if(rowNum <=0)
@@ -286,6 +288,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
                 hlink_style.setFont(hlink_font);
                 //hlink_style.setWrapText(true);
 
+                @SuppressWarnings("deprecation")
                 XSSFHyperlink link = createHelper.createHyperlink(XSSFHyperlink.LINK_FILE);
                 link.setAddress(url);
                 cell.setHyperlink(link);
@@ -340,6 +343,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
             return true;
         }
         // returns true if column is created successfully
+        @SuppressWarnings("deprecation")
         public boolean addColumn(String sheetName,String colName){
             //System.out.println("**************addColumn*********************");
 
@@ -385,6 +389,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
         }
         // removes a column and all the contents
+        @SuppressWarnings("deprecation")
         public boolean removeColumn(String sheetName, int colNum) {
             try{
                 if(!isSheetExist(sheetName))
@@ -394,6 +399,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
                 sheet=workbook.getSheet(sheetName);
                 XSSFCellStyle style = workbook.createCellStyle();
                 style.setFillForegroundColor(HSSFColor.GREY_40_PERCENT.index);
+                @SuppressWarnings("unused")
                 XSSFCreationHelper createHelper = workbook.getCreationHelper();
                 style.setFillPattern(HSSFCellStyle.NO_FILL);
 
@@ -487,6 +493,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
         public static void main(String arg[]) throws IOException{
 
             //System.out.println(filename);
+            @SuppressWarnings("unused")
             Xls_Reader datatable = null;
 
 
