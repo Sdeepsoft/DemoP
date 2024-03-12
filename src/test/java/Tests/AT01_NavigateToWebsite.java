@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 
 import java.io.IOException;
 
-public class AT01_NavigateToWebsite extends OpenBrowser {
+public class AT01_NavigateToWebsite {
 
     @Test
     public static void Nav() throws IOException {
