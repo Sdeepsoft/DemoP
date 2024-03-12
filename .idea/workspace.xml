@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31e0d61f-bf6d-4323-9cdb-7474a6eaa147" name="Changes" comment="7th commit">
+    <list default="true" id="31e0d61f-bf6d-4323-9cdb-7474a6eaa147" name="Changes" comment="8th commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/SD_NavigateToWebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/SD_NavigateToWebsite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/SD_NavigateToWebsite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/SD_NavigateToWebsite.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sdeepsoft&quot;
+  }
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -54,19 +58,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Scenario: Verify the Baeldung website..executor": "Run",
-    "JUnit.AT01_NavigateToWebsite.Nav.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "TestNG.OpenBrowser.navToWebsite.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.qodana"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Scenario: Verify the Baeldung website..executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AT01_NavigateToWebsite.Nav.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.OpenBrowser.navToWebsite.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaCIConfigService">
     <option name="ciType" value="GITHUB" />
     <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" />
@@ -239,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710211015253</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="8th commit">
+      <option name="closed" value="true" />
+      <created>1710213844636</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710213844636</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +273,8 @@
     <MESSAGE value="Fifth commit" />
     <MESSAGE value="sixth commit" />
     <MESSAGE value="7th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="7th commit" />
+    <MESSAGE value="8th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="8th commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
