@@ -1,7 +1,13 @@
 {
     "cucumber-quick": {
-        "tool": "tool-name",
-        "script": "npx tool-name relative-path/to/configurations"
-    },
-    "java.configuration.updateBuildConfiguration": "interactive"
+		"tool": "cucumberjs",
+		"script": "npx cucumber-js relative-"
+	},
+    "cucumberautocomplete.steps": [
+        "src/test/java/features/*.feature",
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumber.glue": [
+        "src/test/java/steps/*.java",
+    ]
 }
